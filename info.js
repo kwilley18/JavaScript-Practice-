@@ -60,8 +60,10 @@ var num = "abs123";
 var number = "2019";
 var Number = Number("143"); // "abs123" prints NaN
 var string = num.toString(); 
+
+//document.getElementById("original").innerHTML = "Original number: " + number; 
 document.getElementById("toString").innerHTML = "toString(): " + string; 
-document.getElementById("valueOf").innerHTML = "valueOf(): " + number.valueOf(); 
+document.getElementById("valueOf").innerHTML = "valueOf(): " + number + ": " + number.valueOf(); 
 document.getElementById("number").innerHTML = "Number(): " + Number; 
 
 var instances1 = 0; 
@@ -73,13 +75,13 @@ for(index = 0; index < num.length; index++){
 	instances1++; 
 	text1+= "Instances: " + instances1 + "<br>"; 
 }
-document.getElementById('for').innerHTML = "For Loop: " + text1 + "<br>"; 
+document.getElementById("for").innerHTML = "For Loop: " + text1 + "<br>"; 
 
 do{
-	text2+= "Counts: " + instances2 + "<br>";
+	text2+= "Instances: " + instances2 + "<br>";
 	instances2++; 
 }
 while(instances2 < 4);
-document.getElementById('dowhile').innerHTML = "doWhile Loop: " + text2 + "<br>"; 
+document.getElementById("dowhile").innerHTML = "doWhile Loop: " + text2 + "<br>"; 
 
 
