@@ -1,0 +1,28 @@
+h1{
+	font-family:'Baloo Bhai', cursive; 
+	font-size: 24px; 
+}
+p{
+	font-family: 'Montserrat', cursive; 
+}
+#displayBox{
+	background-color: aqua;
+}
+#arrayBox{
+	background-color: aquamarine; 
+}
+#stringBox{
+	background-color: mediumorchid; 
+}
+#loopBox{
+	background-color: deeppink;
+}
+#numberBox{
+	background-color: greenyellow;
+}
+button{
+	background-color: cornflowerblue;
+	border-radius: 8px; 
+	font-family: 'Montserrat', cursive; 
+	box-shadow: none; 
+}
